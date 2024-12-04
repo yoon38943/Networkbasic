@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NetworkBasic",
+			"Path": "..\\Source\\NetworkBasic.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NetworkBasicEditor",
+			"Path": "..\\Source\\NetworkBasicEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

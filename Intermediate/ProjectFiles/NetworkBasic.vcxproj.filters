@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NetworkBasic.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NetworkBasic.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NetworkBasicEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NetworkBasic">
+      <UniqueIdentifier>{6CE9156A-1AA2-3CFC-A598-12314121E5B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NetworkBasic\NetworkBasic.Build.cs">
+      <Filter>Source\NetworkBasic</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkBasic.cpp">
+      <Filter>Source\NetworkBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkBasic.h">
+      <Filter>Source\NetworkBasic</Filter>
+    </ClCompile>
+    <Filter Include="Source\NetworkBasic\Character">
+      <UniqueIdentifier>{2AEE50AA-7534-39B3-A18C-1933927ECA1B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\HCharBase.cpp">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\HCharBase.h">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\NetworkBasicCharacter.cpp">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\NetworkBasicCharacter.h">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\NetworkBasic\ETC">
+      <UniqueIdentifier>{FC9CA504-6E2F-3683-A3D7-CE6D22F4B92E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\ETC\HDebugMacros.h">
+      <Filter>Source\NetworkBasic\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\ETC\OwnershipTestActor.cpp">
+      <Filter>Source\NetworkBasic\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\ETC\OwnershipTestActor.h">
+      <Filter>Source\NetworkBasic\ETC</Filter>
+    </ClCompile>
+    <Filter Include="Source\NetworkBasic\NetworkFramework">
+      <UniqueIdentifier>{96F78CB5-7BC9-3544-B6D4-89C6B1D3B549}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicController.cpp">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicController.h">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicGameMode.cpp">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicGameMode.h">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicGameState.cpp">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\NetworkFramework\NetworkBasicGameState.h">
+      <Filter>Source\NetworkBasic\NetworkFramework</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
