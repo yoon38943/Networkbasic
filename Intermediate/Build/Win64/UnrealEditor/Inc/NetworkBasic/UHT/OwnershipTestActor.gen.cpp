@@ -96,14 +96,14 @@ AOwnershipTestActor::~AOwnershipTestActor() {}
 // End Class AOwnershipTestActor
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics
+struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AOwnershipTestActor, AOwnershipTestActor::StaticClass, TEXT("AOwnershipTestActor"), &Z_Registration_Info_UClass_AOwnershipTestActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOwnershipTestActor), 2082940683U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_ETC_OwnershipTestActor_h_3049152725(TEXT("/Script/NetworkBasic"),
-	Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_OwnershipTestActor_h_3049152725(TEXT("/Script/NetworkBasic"),
+	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_OwnershipTestActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

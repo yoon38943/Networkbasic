@@ -11,6 +11,7 @@
     <None Include="..\..\Source\NetworkBasicEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -44,6 +45,12 @@
     <Filter Include="Source\NetworkBasic\Character">
       <UniqueIdentifier>{2AEE50AA-7534-39B3-A18C-1933927ECA1B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\CoinGameCharacter.cpp">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\Character\CoinGameCharacter.h">
+      <Filter>Source\NetworkBasic\Character</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\NetworkBasic\Character\HCharBase.cpp">
       <Filter>Source\NetworkBasic\Character</Filter>
     </ClCompile>
@@ -56,9 +63,42 @@
     <ClCompile Include="..\..\Source\NetworkBasic\Character\NetworkBasicCharacter.h">
       <Filter>Source\NetworkBasic\Character</Filter>
     </ClCompile>
+    <Filter Include="Source\NetworkBasic\CoinFramework">
+      <UniqueIdentifier>{0F641599-B8E1-3C9A-A30C-4DEA3E228E31}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinGameMode.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinGameMode.h">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinGameState.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinGameState.h">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinPlayerController.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinPlayerController.h">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinPlayerState.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinPlayerState.h">
+      <Filter>Source\NetworkBasic\CoinFramework</Filter>
+    </ClCompile>
     <Filter Include="Source\NetworkBasic\ETC">
       <UniqueIdentifier>{FC9CA504-6E2F-3683-A3D7-CE6D22F4B92E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\ETC\CoinItem.cpp">
+      <Filter>Source\NetworkBasic\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\ETC\CoinItem.h">
+      <Filter>Source\NetworkBasic\ETC</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\NetworkBasic\ETC\HDebugMacros.h">
       <Filter>Source\NetworkBasic\ETC</Filter>
     </ClCompile>

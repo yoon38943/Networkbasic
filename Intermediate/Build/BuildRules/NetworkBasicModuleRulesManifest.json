@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\NetworkBasic\\Source\\NetworkBasic\\NetworkBasic.Build.cs",
-		"D:\\NetworkBasic\\Source\\NetworkBasic.Target.cs",
-		"D:\\NetworkBasic\\Source\\NetworkBasicEditor.Target.cs"
+		"D:\\NetworkBasic(1)\\Source\\NetworkBasic\\NetworkBasic.Build.cs",
+		"D:\\NetworkBasic(1)\\Source\\NetworkBasic.Target.cs",
+		"D:\\NetworkBasic(1)\\Source\\NetworkBasicEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.0"
 }

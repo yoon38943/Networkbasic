@@ -14,13 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NETWORKBASIC_NetworkBasicCharacter_generated_h
 
-#define FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnRep_Mana); \
 	DECLARE_FUNCTION(execCallClientTravel); \
 	DECLARE_FUNCTION(execCallOpenLevel); \
 	DECLARE_FUNCTION(execOpenLevel);
 
 
-#define FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetworkBasicCharacter(); \
 	friend struct Z_Construct_UClass_ANetworkBasicCharacter_Statics; \
@@ -32,11 +33,12 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		R_Health=NETFIELD_REP_START, \
-		NETFIELD_REP_END=R_Health	}; \
+		RU_Mana, \
+		NETFIELD_REP_END=RU_Mana	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ANetworkBasicCharacter(ANetworkBasicCharacter&&); \
@@ -48,13 +50,13 @@ public: \
 	NO_API virtual ~ANetworkBasicCharacter();
 
 
-#define FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_15_PROLOG
-#define FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_GENERATED_BODY \
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_15_PROLOG
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
-	FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_ENHANCED_CONSTRUCTORS \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +64,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> NETWORKBASIC_API UClass* StaticClass<class ANetworkBasicCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h
+#define CURRENT_FILE_ID FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

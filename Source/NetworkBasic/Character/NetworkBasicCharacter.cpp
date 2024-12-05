@@ -113,6 +113,12 @@ void ANetworkBasicCharacter::CallClientTravel(const FString& Address)
 	}
 }
 
+void ANetworkBasicCharacter::OnRep_Mana()
+{
+	const FString String = FString::Printf(TEXT("Changed current mana %d"), RU_Mana);
+	GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Blue, String);
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 

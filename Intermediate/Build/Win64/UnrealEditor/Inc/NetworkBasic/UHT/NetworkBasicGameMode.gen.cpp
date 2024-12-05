@@ -78,14 +78,14 @@ ANetworkBasicGameMode::~ANetworkBasicGameMode() {}
 // End Class ANetworkBasicGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics
+struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ANetworkBasicGameMode, ANetworkBasicGameMode::StaticClass, TEXT("ANetworkBasicGameMode"), &Z_Registration_Info_UClass_ANetworkBasicGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetworkBasicGameMode), 1238100749U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_2058189576(TEXT("/Script/NetworkBasic"),
-	Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_2058189576(TEXT("/Script/NetworkBasic"),
+	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_NetworkFramework_NetworkBasicGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

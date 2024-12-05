@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\networkbasic\\source\\networkbasic\\character\\hcharbase.cpp",
+        "Source": "d:\\networkbasic(1)\\source\\networkbasic\\character\\hcharbase.cpp",
         "ProvidedModule": "",
         "PCH": "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
         "Includes": [
-            "d:\\networkbasic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\networkbasic\\definitions.networkbasic.h",
-            "d:\\networkbasic\\source\\networkbasic\\character\\hcharbase.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\networkbasic\\definitions.networkbasic.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\character\\hcharbase.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -16,7 +16,7 @@
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "d:\\networkbasic\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\hcharbase.generated.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\hcharbase.generated.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",

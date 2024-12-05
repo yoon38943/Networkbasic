@@ -131,14 +131,14 @@ AHCharBase::~AHCharBase() {}
 // End Class AHCharBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_HCharBase_h_Statics
+struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_HCharBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AHCharBase, AHCharBase::StaticClass, TEXT("AHCharBase"), &Z_Registration_Info_UClass_AHCharBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHCharBase), 3312180379U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_HCharBase_h_1218929330(TEXT("/Script/NetworkBasic"),
-	Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_HCharBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_HCharBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_HCharBase_h_1218929330(TEXT("/Script/NetworkBasic"),
+	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_HCharBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_HCharBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

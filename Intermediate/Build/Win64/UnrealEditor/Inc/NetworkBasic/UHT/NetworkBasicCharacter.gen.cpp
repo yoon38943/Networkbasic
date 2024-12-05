@@ -106,6 +106,35 @@ DEFINE_FUNCTION(ANetworkBasicCharacter::execCallOpenLevel)
 }
 // End Class ANetworkBasicCharacter Function CallOpenLevel
 
+// Begin Class ANetworkBasicCharacter Function OnRep_Mana
+struct Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Character/NetworkBasicCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ANetworkBasicCharacter, nullptr, "OnRep_Mana", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana_Statics::Function_MetaDataParams), Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ANetworkBasicCharacter::execOnRep_Mana)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->OnRep_Mana();
+	P_NATIVE_END;
+}
+// End Class ANetworkBasicCharacter Function OnRep_Mana
+
 // Begin Class ANetworkBasicCharacter Function OpenLevel
 struct Z_Construct_UFunction_ANetworkBasicCharacter_OpenLevel_Statics
 {
@@ -142,6 +171,7 @@ void ANetworkBasicCharacter::StaticRegisterNativesANetworkBasicCharacter()
 	static const FNameNativePtrPair Funcs[] = {
 		{ "CallClientTravel", &ANetworkBasicCharacter::execCallClientTravel },
 		{ "CallOpenLevel", &ANetworkBasicCharacter::execCallOpenLevel },
+		{ "OnRep_Mana", &ANetworkBasicCharacter::execOnRep_Mana },
 		{ "OpenLevel", &ANetworkBasicCharacter::execOpenLevel },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -162,13 +192,18 @@ struct Z_Construct_UClass_ANetworkBasicCharacter_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_R_Health_MetaData[] = {
 		{ "ModuleRelativePath", "Character/NetworkBasicCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RU_Mana_MetaData[] = {
+		{ "ModuleRelativePath", "Character/NetworkBasicCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_R_Health;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_RU_Mana;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ANetworkBasicCharacter_CallClientTravel, "CallClientTravel" }, // 3722921571
 		{ &Z_Construct_UFunction_ANetworkBasicCharacter_CallOpenLevel, "CallOpenLevel" }, // 511922524
+		{ &Z_Construct_UFunction_ANetworkBasicCharacter_OnRep_Mana, "OnRep_Mana" }, // 1496373410
 		{ &Z_Construct_UFunction_ANetworkBasicCharacter_OpenLevel, "OpenLevel" }, // 32950367
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -178,8 +213,10 @@ struct Z_Construct_UClass_ANetworkBasicCharacter_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANetworkBasicCharacter_Statics::NewProp_R_Health = { "R_Health", nullptr, (EPropertyFlags)0x0020080000000020, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANetworkBasicCharacter, R_Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_R_Health_MetaData), NewProp_R_Health_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANetworkBasicCharacter_Statics::NewProp_RU_Mana = { "RU_Mana", "OnRep_Mana", (EPropertyFlags)0x0020080100000020, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANetworkBasicCharacter, RU_Mana), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RU_Mana_MetaData), NewProp_RU_Mana_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANetworkBasicCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANetworkBasicCharacter_Statics::NewProp_R_Health,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANetworkBasicCharacter_Statics::NewProp_RU_Mana,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ANetworkBasicCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ANetworkBasicCharacter_Statics::DependentSingletons[])() = {
@@ -217,8 +254,10 @@ template<> NETWORKBASIC_API UClass* StaticClass<ANetworkBasicCharacter>()
 void ANetworkBasicCharacter::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 {
 	static const FName Name_R_Health(TEXT("R_Health"));
+	static const FName Name_RU_Mana(TEXT("RU_Mana"));
 	const bool bIsValid = true
-		&& Name_R_Health == ClassReps[(int32)ENetFields_Private::R_Health].Property->GetFName();
+		&& Name_R_Health == ClassReps[(int32)ENetFields_Private::R_Health].Property->GetFName()
+		&& Name_RU_Mana == ClassReps[(int32)ENetFields_Private::RU_Mana].Property->GetFName();
 	checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ANetworkBasicCharacter"));
 }
 DEFINE_VTABLE_PTR_HELPER_CTOR(ANetworkBasicCharacter);
@@ -226,14 +265,14 @@ ANetworkBasicCharacter::~ANetworkBasicCharacter() {}
 // End Class ANetworkBasicCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANetworkBasicCharacter, ANetworkBasicCharacter::StaticClass, TEXT("ANetworkBasicCharacter"), &Z_Registration_Info_UClass_ANetworkBasicCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetworkBasicCharacter), 3474442407U) },
+		{ Z_Construct_UClass_ANetworkBasicCharacter, ANetworkBasicCharacter::StaticClass, TEXT("ANetworkBasicCharacter"), &Z_Registration_Info_UClass_ANetworkBasicCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANetworkBasicCharacter), 2485209543U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_665453356(TEXT("/Script/NetworkBasic"),
-	Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_1984741638(TEXT("/Script/NetworkBasic"),
+	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

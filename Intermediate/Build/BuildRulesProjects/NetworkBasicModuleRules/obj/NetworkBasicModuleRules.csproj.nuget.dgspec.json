@@ -1,17 +1,98 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetworkBasic\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj": {}
+    "D:\\NetworkBasic(1)\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj": {}
   },
   "projects": {
-    "D:\\NetworkBasic\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj": {
+    "D:\\NetworkBasic(1)\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetworkBasic\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj",
+        "projectUniqueName": "D:\\NetworkBasic(1)\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj",
         "projectName": "NetworkBasicModuleRules",
-        "projectPath": "D:\\NetworkBasic\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj",
+        "projectPath": "D:\\NetworkBasic(1)\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\NetworkBasicModuleRules.csproj",
         "packagesPath": "C:\\Users\\assort_c2\\.nuget\\packages\\",
-        "outputPath": "D:\\NetworkBasic\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\obj\\",
+        "outputPath": "D:\\NetworkBasic(1)\\Intermediate\\Build\\BuildRulesProjects\\NetworkBasicModuleRules\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\assort_c2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
+                "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj"
+              },
+              "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
+                "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
+              },
+              "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
+                "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
+              },
+              "D:\\UnrealEngine-5.5.0-release\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+              },
+              "D:\\UnrealEngine-5.5.0-release\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Binaries\\ThirdParty\\DotNet\\8.0.300\\win-x64\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
+        "projectName": "MarketplaceRules",
+        "projectPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
+        "packagesPath": "C:\\Users\\assort_c2\\.nuget\\packages\\",
+        "outputPath": "D:\\UnrealEngine-5.5.0-release\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [

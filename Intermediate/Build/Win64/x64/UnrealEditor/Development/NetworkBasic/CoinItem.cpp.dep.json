@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\networkbasic(1)\\source\\networkbasic\\etc\\coinitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\networkbasic\\definitions.networkbasic.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\etc\\coinitem.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coinitem.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rotatingmovementcomponent.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rotatingmovementcomponent.generated.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\character\\coingamecharacter.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\character\\hcharbase.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\hcharbase.generated.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coingamecharacter.generated.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\coinframework\\coingamestate.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestate.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestate.generated.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coingamestate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
