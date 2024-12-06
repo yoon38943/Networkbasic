@@ -17,9 +17,70 @@ NETWORKBASIC_API UClass* Z_Construct_UClass_AHCharBase();
 UPackage* Z_Construct_UPackage__Script_NetworkBasic();
 // End Cross Module References
 
+// Begin Class ACoinGameCharacter Function ClientPlaySound2D
+struct CoinGameCharacter_eventClientPlaySound2D_Parms
+{
+	USoundBase* Sound;
+};
+static const FName NAME_ACoinGameCharacter_ClientPlaySound2D = FName(TEXT("ClientPlaySound2D"));
+void ACoinGameCharacter::ClientPlaySound2D(USoundBase* Sound)
+{
+	CoinGameCharacter_eventClientPlaySound2D_Parms Parms;
+	Parms.Sound=Sound;
+	UFunction* Func = FindFunctionChecked(NAME_ACoinGameCharacter_ClientPlaySound2D);
+	ProcessEvent(Func,&Parms);
+}
+struct Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// RPC( Remote Procedure Call )\n" },
+#endif
+		{ "ModuleRelativePath", "Character/CoinGameCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "RPC( Remote Procedure Call )" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Sound;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::NewProp_Sound = { "Sound", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(CoinGameCharacter_eventClientPlaySound2D_Parms, Sound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::NewProp_Sound,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACoinGameCharacter, nullptr, "ClientPlaySound2D", nullptr, nullptr, Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::PropPointers), sizeof(CoinGameCharacter_eventClientPlaySound2D_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020C40, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::Function_MetaDataParams), Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::Function_MetaDataParams) };
+static_assert(sizeof(CoinGameCharacter_eventClientPlaySound2D_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ACoinGameCharacter::execClientPlaySound2D)
+{
+	P_GET_OBJECT(USoundBase,Z_Param_Sound);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ClientPlaySound2D_Implementation(Z_Param_Sound);
+	P_NATIVE_END;
+}
+// End Class ACoinGameCharacter Function ClientPlaySound2D
+
 // Begin Class ACoinGameCharacter
 void ACoinGameCharacter::StaticRegisterNativesACoinGameCharacter()
 {
+	UClass* Class = ACoinGameCharacter::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "ClientPlaySound2D", &ACoinGameCharacter::execClientPlaySound2D },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ACoinGameCharacter);
 UClass* Z_Construct_UClass_ACoinGameCharacter_NoRegister()
@@ -47,6 +108,10 @@ struct Z_Construct_UClass_ACoinGameCharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LandSound;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACoinGameCharacter_ClientPlaySound2D, "ClientPlaySound2D" }, // 1224900907
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACoinGameCharacter>::IsAbstract,
 	};
@@ -69,11 +134,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ACoinGameCharacter_Stat
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_ACoinGameCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_ACoinGameCharacter_Statics::PropPointers),
 	0,
 	0x009000A4u,
@@ -99,10 +164,10 @@ ACoinGameCharacter::~ACoinGameCharacter() {}
 struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACoinGameCharacter, ACoinGameCharacter::StaticClass, TEXT("ACoinGameCharacter"), &Z_Registration_Info_UClass_ACoinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinGameCharacter), 2304782585U) },
+		{ Z_Construct_UClass_ACoinGameCharacter, ACoinGameCharacter::StaticClass, TEXT("ACoinGameCharacter"), &Z_Registration_Info_UClass_ACoinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinGameCharacter), 2180379458U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_4014426163(TEXT("/Script/NetworkBasic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_3483020559(TEXT("/Script/NetworkBasic"),
 	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

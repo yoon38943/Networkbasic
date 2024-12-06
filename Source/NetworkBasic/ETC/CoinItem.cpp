@@ -16,8 +16,6 @@ ACoinItem::ACoinItem()
 	RotatingMovement = CreateDefaultSubobject<URotatingMovementComponent>("RotatingMovement");
 	RotatingMovement->RotationRate = FRotator(0.0f, 90.0f, 0.0f);
 
-	PickupSound = CreateDefaultSubobject<USoundBase>("PickupSound");
-
 	bReplicates = true;
 }
 
@@ -43,6 +41,7 @@ void ACoinItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor*
 		GameState->RemovePickup();
 	}
 
+	Character->ClientPlaySound2D(PickupSound);
 	Character->AddScore(10);
 	Character->AddPickup();
 

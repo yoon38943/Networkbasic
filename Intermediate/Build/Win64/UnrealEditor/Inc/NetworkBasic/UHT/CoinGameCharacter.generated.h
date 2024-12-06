@@ -9,11 +9,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USoundBase;
 #ifdef NETWORKBASIC_CoinGameCharacter_generated_h
 #error "CoinGameCharacter.generated.h already included, missing '#pragma once' in CoinGameCharacter.h"
 #endif
 #define NETWORKBASIC_CoinGameCharacter_generated_h
 
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClientPlaySound2D_Implementation(USoundBase* Sound); \
+	DECLARE_FUNCTION(execClientPlaySound2D);
+
+
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_CALLBACK_WRAPPERS
 #define FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACoinGameCharacter(); \
@@ -39,6 +46,8 @@ public: \
 #define FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_CALLBACK_WRAPPERS \
 	FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

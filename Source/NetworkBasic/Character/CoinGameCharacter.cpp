@@ -4,6 +4,7 @@
 #include "GameFramework/PlayerState.h"
 #include "Kismet/GameplayStatics.h"
 #include "NetworkBasic/CoinFramework/CoinPlayerState.h"
+#include "GameFramework/GameMode.h"
 
 
 ACoinGameCharacter::ACoinGameCharacter()
@@ -47,6 +48,21 @@ void ACoinGameCharacter::Landed(const FHitResult& Hit)
 	UGameplayStatics::PlaySound2D(GetWorld(), LandSound);
 }
 
+void ACoinGameCharacter::FellOutOfWorld(const class UDamageType& dmgType)
+{
+	//Super::FellOutOfWorld(dmgType);
+
+	AController* BackupController = Controller;
+	AddScore(-10);
+	Destroy();
+
+	AGameMode* GameMode = GetWorld()->GetAuthGameMode<AGameMode>();
+	if (GameMode)
+	{
+		GameMode->RestartPlayer(BackupController);
+	}
+}
+
 // 기존 점수에 Score를 + 시키는 함수
 void ACoinGameCharacter::AddScore(const float Score) const
 {
@@ -66,4 +82,10 @@ void ACoinGameCharacter::AddPickup() const
 	{
 		MyPlayerState->AddPickup();
 	}
+}
+
+// RPC 함수 호출
+void ACoinGameCharacter::ClientPlaySound2D_Implementation(USoundBase* Sound)
+{
+	UGameplayStatics::PlaySound2D(GetWorld(), Sound);
 }

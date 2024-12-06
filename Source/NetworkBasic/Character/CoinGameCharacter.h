@@ -24,8 +24,13 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 	virtual void Landed(const FHitResult& Hit) override;
+	virtual void FellOutOfWorld(const class UDamageType& dmgType) override;
 
 public:
 	void AddScore(const float Score) const;
 	void AddPickup() const;
+
+	// RPC( Remote Procedure Call )
+	UFUNCTION(Client, Unreliable)
+	void ClientPlaySound2D(USoundBase* Sound);
 };

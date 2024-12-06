@@ -55,7 +55,13 @@
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
             "d:\\networkbasic(1)\\source\\networkbasic\\coinframework\\coinplayerstate.h",
-            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coinplayerstate.generated.h"
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coinplayerstate.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemode.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemode.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
