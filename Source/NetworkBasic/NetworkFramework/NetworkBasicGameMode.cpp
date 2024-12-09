@@ -19,7 +19,16 @@ void ANetworkBasicGameMode::PreLogin(const FString& Options, const FString& Addr
 {
 	HLOG_NET_LOG(Log, TEXT("%s"), TEXT("Begin ==== Client Login ====="));
 	Super::PreLogin(Options, Address, UniqueId, ErrorMessage);
-	HLOG_NET_LOG(Log, TEXT("%s"), TEXT("End"));
+	HLOG_NET_LOG(Log, TEXT("%s"), TEXT("End"))
+
+	UNetDriver* NetDriver = GetNetDriver();
+	if (NetDriver)
+	{
+		if (NetDriver->ClientConnections.Num() >= 3)
+		{
+			ErrorMessage = TEXT("Server is Full");
+		}
+	}
 }
 
 APlayerController* ANetworkBasicGameMode::Login(UPlayer* NewPlayer, ENetRole InRemoteRole, const FString& Portal, const FString& Options, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage)
@@ -35,6 +44,19 @@ void ANetworkBasicGameMode::PostLogin(APlayerController* NewPlayer)
 	HLOG_NET_LOG(Log, TEXT("%s"), TEXT("Begin"));
 	Super::PostLogin(NewPlayer);
 	HLOG_NET_LOG(Log, TEXT("%s"), TEXT("End"));
+
+	UNetDriver* NetDriver = GetNetDriver();
+	if (NetDriver)
+	{
+		if (NetDriver->ServerConnection)
+		{
+			HLOG_NET_LOG(Log, TEXT("ServerConnection: %s"), *NetDriver->ServerConnection->GetName());
+		}
+	}
+	else
+	{
+		HLOG_NET_LOG(Log, TEXT("%s"), TEXT("No NetDriver"));
+	}
 }
 
 void ANetworkBasicGameMode::StartPlay()

@@ -90,6 +90,21 @@
     <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\CoinPlayerState.h">
       <Filter>Source\NetworkBasic\CoinFramework</Filter>
     </ClCompile>
+    <Filter Include="Source\NetworkBasic\CoinFramework\UI">
+      <UniqueIdentifier>{65B67B53-8CEC-35A7-9AF6-A17D1B67D323}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\UI\WidgetScoreBoard.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\UI\WidgetScoreBoard.h">
+      <Filter>Source\NetworkBasic\CoinFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\UI\WidgetScoreInfo.cpp">
+      <Filter>Source\NetworkBasic\CoinFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\UI\WidgetScoreInfo.h">
+      <Filter>Source\NetworkBasic\CoinFramework\UI</Filter>
+    </ClCompile>
     <Filter Include="Source\NetworkBasic\ETC">
       <UniqueIdentifier>{FC9CA504-6E2F-3683-A3D7-CE6D22F4B92E}</UniqueIdentifier>
     </Filter>

@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NETWORKBASIC_CoinPlayerController_generated_h
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACoinPlayerController(); \
 	friend struct Z_Construct_UClass_ACoinPlayerController_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ACoinPlayerController)
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACoinPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~ACoinPlayerController();
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_7_PROLOG
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_10_GENERATED_BODY \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_8_PROLOG
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_10_INCLASS_NO_PURE_DECLS \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_10_ENHANCED_CONSTRUCTORS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_11_INCLASS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinPlayerController_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

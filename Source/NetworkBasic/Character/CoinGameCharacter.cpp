@@ -1,11 +1,10 @@
 #include "CoinGameCharacter.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "GameFramework/PlayerState.h"
+#include "../CoinFramework/CoinGameMode.h"
+#include "../CoinFramework/CoinPlayerState.h"
 #include "Kismet/GameplayStatics.h"
-#include "NetworkBasic/CoinFramework/CoinPlayerState.h"
-#include "GameFramework/GameMode.h"
-
+#include "../ETC/HDebugMacros.h"
 
 ACoinGameCharacter::ACoinGameCharacter()
 {
@@ -16,8 +15,8 @@ ACoinGameCharacter::ACoinGameCharacter()
 
 	// Note: For faster iteration times these variables, and many more, can be tweaked in the Character Blueprint
 	// instead of recompiling to adjust them
-	GetCharacterMovement()->JumpZVelocity = 700.f;
-	GetCharacterMovement()->AirControl = 0.35f;
+	GetCharacterMovement()->JumpZVelocity = 500.f;
+	GetCharacterMovement()->AirControl = 0.25f;
 	GetCharacterMovement()->MaxWalkSpeed = 500.f;
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
@@ -27,8 +26,6 @@ ACoinGameCharacter::ACoinGameCharacter()
 void ACoinGameCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	
 }
 
 void ACoinGameCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -44,23 +41,23 @@ void ACoinGameCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason)
 void ACoinGameCharacter::Landed(const FHitResult& Hit)
 {
 	Super::Landed(Hit);
-	
+
 	UGameplayStatics::PlaySound2D(GetWorld(), LandSound);
 }
 
-void ACoinGameCharacter::FellOutOfWorld(const class UDamageType& dmgType)
+void ACoinGameCharacter::FellOutOfWorld(const UDamageType& DmgType)
 {
-	//Super::FellOutOfWorld(dmgType);
-
 	AController* BackupController = Controller;
-	AddScore(-10);
+
+	ACoinGameMode* GameMode = Cast<ACoinGameMode>(GetWorld()->GetAuthGameMode<AGameMode>());
+	if (GameMode == nullptr)
+	{
+		return;
+	}
+	AddScore(GameMode->FellOutPoint);
 	Destroy();
 
-	AGameMode* GameMode = GetWorld()->GetAuthGameMode<AGameMode>();
-	if (GameMode)
-	{
-		GameMode->RestartPlayer(BackupController);
-	}
+	GameMode->RestartPlayer(BackupController);
 }
 
 // 기존 점수에 Score를 + 시키는 함수
@@ -87,5 +84,7 @@ void ACoinGameCharacter::AddPickup() const
 // RPC 함수 호출
 void ACoinGameCharacter::ClientPlaySound2D_Implementation(USoundBase* Sound)
 {
+	HLOG_NET_LOG(Warning, TEXT("%s"), TEXT("!!Sound Play!!"));
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "ClientPlaySound2D PlaySound");
 	UGameplayStatics::PlaySound2D(GetWorld(), Sound);
 }

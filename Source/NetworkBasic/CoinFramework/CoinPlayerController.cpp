@@ -8,7 +8,7 @@ void ACoinPlayerController::BeginPlay()
 	if (IsLocalController() && ScoreboardMenuClass != nullptr)
 	{
 		ScoreboardMenu = CreateWidget<UUserWidget>(this, ScoreboardMenuClass);
-		if (ScoreboardMenu != nullptr)
+		if (ScoreboardMenu)
 		{
 			ScoreboardMenu->AddToViewport(0);
 		}

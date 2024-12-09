@@ -15,11 +15,11 @@ public:
 	ANetworkBasicGameMode();
 
 public:
-	// ·Î±×ÀÎ °ü·Ã 3°¡Áö ÁÖ¿ä ÇÔ¼ö + °ÔÀÓ ½ÃÀÛ
-	virtual void PreLogin(const FString& Options, const FString& Address, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage);
-	virtual APlayerController* Login(UPlayer* NewPlayer, ENetRole InRemoteRole, const FString& Portal, const FString& Options, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage);
-	virtual void PostLogin(APlayerController* NewPlayer);
-	virtual void StartPlay();
+	// ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¿ï¿½ ï¿½Ô¼ï¿½ + ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	virtual void PreLogin(const FString& Options, const FString& Address, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage) override;
+	virtual APlayerController* Login(UPlayer* NewPlayer, ENetRole InRemoteRole, const FString& Portal, const FString& Options, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage) override;
+	virtual void PostLogin(APlayerController* NewPlayer) override;
+	virtual void StartPlay() override;
 };
 
 

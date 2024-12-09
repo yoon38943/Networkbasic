@@ -14,6 +14,8 @@ protected:
 	int32 Pickups;
 
 public:
+	int32 GetPickups() { return Pickups; }
+
 	void AddPickup()
 	{
 		Pickups++;

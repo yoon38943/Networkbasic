@@ -15,11 +15,11 @@ class APlayerState;
 #endif
 #define NETWORKBASIC_CoinGameState_generated_h
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execGetPlayerStatesOrdered);
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetPlayerStatesOrderedByScore);
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACoinGameState(); \
 	friend struct Z_Construct_UClass_ACoinGameState_Statics; \
@@ -35,7 +35,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACoinGameState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -49,13 +49,13 @@ public: \
 	NO_API virtual ~ACoinGameState();
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_7_PROLOG
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_GENERATED_BODY \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_8_PROLOG
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_INCLASS_NO_PURE_DECLS \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_10_ENHANCED_CONSTRUCTORS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_INCLASS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameState_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

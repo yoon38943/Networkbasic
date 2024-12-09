@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NETWORKBASIC_CoinGameMode_generated_h
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACoinGameMode(); \
 	friend struct Z_Construct_UClass_ACoinGameMode_Statics; \
@@ -23,9 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ACoinGameMode)
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_10_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACoinGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ACoinGameMode(ACoinGameMode&&); \
@@ -33,16 +31,16 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACoinGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACoinGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACoinGameMode) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACoinGameMode) \
 	NO_API virtual ~ACoinGameMode();
 
 
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_7_PROLOG
-#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_10_GENERATED_BODY \
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_8_PROLOG
+#define FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_10_INCLASS_NO_PURE_DECLS \
-	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_10_ENHANCED_CONSTRUCTORS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_11_INCLASS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_CoinFramework_CoinGameMode_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
