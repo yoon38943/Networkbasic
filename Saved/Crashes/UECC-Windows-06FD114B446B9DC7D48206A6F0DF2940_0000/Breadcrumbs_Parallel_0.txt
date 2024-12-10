@@ -1,0 +1,7 @@
+Breadcrumbs 'Parallel'
+ - Lights
+ - DirectLighting
+ - LumenSceneLighting PROPAGATE GLOBAL CHANGE!
+ - Scene
+ - FRDGBuilder::Execute
+ - Frame 358

@@ -1,10 +1,13 @@
 #include "CoinGameCharacter.h"
+
+#include "IDetailTreeNode.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "../CoinFramework/CoinGameMode.h"
 #include "../CoinFramework/CoinPlayerState.h"
 #include "Kismet/GameplayStatics.h"
 #include "../ETC/HDebugMacros.h"
+#include "NetworkBasic/Component/ItemBuffComponent.h"
 
 ACoinGameCharacter::ACoinGameCharacter()
 {
@@ -21,6 +24,21 @@ ACoinGameCharacter::ACoinGameCharacter()
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
+
+	// 아이템 버프 컴포넌트 생성 ( Replicated 설정! )
+	ItemBuff = CreateDefaultSubobject<UItemBuffComponent>("Item Buff");
+	ItemBuff->SetIsReplicated(true);
+}
+
+void ACoinGameCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	if (ItemBuff)
+	{
+		ItemBuff->CoinGameCharacter = this;
+		ItemBuff->SetInitialSpeed(GetCharacterMovement()->MaxWalkSpeed);
+	}
 }
 
 void ACoinGameCharacter::BeginPlay()

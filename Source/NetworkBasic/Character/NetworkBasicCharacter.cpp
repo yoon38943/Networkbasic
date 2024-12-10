@@ -62,8 +62,8 @@ void ANetworkBasicCharacter::Tick(float DeltaTime)
 	{
 		R_Health += 1.0f;
 
-		FString str = FString::Printf(TEXT("[%s] to Add"), *LocalRoleString);
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, *str);
+		//FString str = FString::Printf(TEXT("[%s] to Add"), *LocalRoleString);
+		//GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, *str);
 	}
 
 	FString Values2 = FString::Printf(TEXT("\n\nHealth: %.2f"), R_Health);
@@ -119,6 +119,8 @@ void ANetworkBasicCharacter::OnRep_Mana()
 	GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Blue, String);
 }
 
+
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -127,7 +129,60 @@ void ANetworkBasicCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	// ���߿� �߰��Ǵ� �Է¸� ó��
-	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
+		EnhancedInputComponent->BindAction(CommandAction, ETriggerEvent::Triggered, this, &ANetworkBasicCharacter::RPCCommand);
 	}
+}
+
+void ANetworkBasicCharacter::RPCCommand(const FInputActionValue& Value)
+{
+	FVector Command = Value.Get<FVector>();
+	if (Command.X == 1)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Command 1");
+		ServerMsgTest(30);
+	}
+	else if (Command.X == 2)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Command 2");
+		ServerMsgTest(1234567);
+	}
+	else if (Command.X == 3)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Command 3");
+		if (HasAuthority())
+		{
+			ClientMsgTest(999);	// 리슨서버 자기자신에게만 보내짐..( 당연하다 => 이렇게 사용하면 안 됨 ) ==> NetMultiCast로 변경해야 모든 Client 들에게 정보가 감
+			ClientAllMsgTest(777);
+		}
+	}
+}
+
+// ServerMsgTest RPC 함수의 (값)유효성 체크
+bool ANetworkBasicCharacter::ServerMsgTest_Validate(int32 Value)
+{
+	if (Value > 10000)
+	{
+		return false;	//비정상값 => Client를 끊어버린다
+	}
+	return true;	// 정상
+}
+
+void ANetworkBasicCharacter::ServerMsgTest_Implementation(int32 Value)
+{
+	FString str = FString::Printf(TEXT("ServerMsgTest : %d"), Value);
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, str);
+}
+
+void ANetworkBasicCharacter::ClientMsgTest_Implementation(int32 Value)
+{
+	FString str = FString::Printf(TEXT("ClientMsgTest : %d"), Value);
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, str);
+}
+
+void ANetworkBasicCharacter::ClientAllMsgTest_Implementation(int32 Value)
+{
+	FString str = FString::Printf(TEXT("MulticastMsgTest : %d"), Value);
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, str);
 }

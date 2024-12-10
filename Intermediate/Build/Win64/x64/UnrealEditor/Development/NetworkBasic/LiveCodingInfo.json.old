@@ -1,0 +1,40 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkBasic.cpp.obj": [
+			"CoinGameMode.gen.cpp.obj",
+			"CoinGameState.gen.cpp.obj",
+			"CoinItem.gen.cpp.obj",
+			"CoinPlayerController.gen.cpp.obj",
+			"CoinPlayerState.gen.cpp.obj",
+			"HCharBase.gen.cpp.obj",
+			"NetworkBasicController.gen.cpp.obj",
+			"NetworkBasicGameMode.gen.cpp.obj",
+			"NetworkBasicGameState.gen.cpp.obj",
+			"OwnershipTestActor.gen.cpp.obj",
+			"WidgetScoreBoard.gen.cpp.obj",
+			"WidgetScoreInfo.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"HCharBase.cpp.obj",
+			"CoinGameMode.cpp.obj",
+			"CoinGameState.cpp.obj",
+			"CoinPlayerController.cpp.obj",
+			"CoinPlayerState.cpp.obj",
+			"WidgetScoreBoard.cpp.obj",
+			"WidgetScoreInfo.cpp.obj",
+			"OwnershipTestActor.cpp.obj",
+			"NetworkBasic.cpp.obj",
+			"NetworkBasicController.cpp.obj",
+			"NetworkBasicGameMode.cpp.obj",
+			"NetworkBasicGameState.cpp.obj",
+			"CoinGameCharacter.gen.cpp.obj",
+			"ItemBuffComponent.gen.cpp.obj",
+			"NetworkBasic.init.gen.cpp.obj",
+			"NetworkBasicCharacter.gen.cpp.obj",
+			"CoinGameCharacter.cpp.obj",
+			"NetworkBasicCharacter.cpp.obj",
+			"ItemBuffComponent.cpp.obj",
+			"CoinItem.cpp.obj"
+		]
+	}
+}

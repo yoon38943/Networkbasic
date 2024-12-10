@@ -38,7 +38,9 @@
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rotatingmovementcomponent.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
-            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rotatingmovementcomponent.generated.h"
+            "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rotatingmovementcomponent.generated.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\component\\itembuffcomponent.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\itembuffcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

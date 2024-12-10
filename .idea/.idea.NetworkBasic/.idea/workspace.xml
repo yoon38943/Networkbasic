@@ -17,10 +17,8 @@
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CoinGame/BP_CoinPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CoinGame/BP_CoinPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CoinGame/WBP_ScoreBoard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CoinGame/WBP_ScoreBoard.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CoinGame/WBP_ScoreBoard_Entry.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CoinGame/WBP_ScoreBoard_Entry.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfo.cs" afterDir="false" />
@@ -32,13 +30,11 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/NetworkBasicEditor/Development/NetworkBasicEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/NetworkBasicEditor/Development/NetworkBasicEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ShaderCompileWorker/Development/ShaderCompileWorker.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ShaderCompileWorker/Development/ShaderCompileWorker.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameMode.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameMode.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameMode.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameMode.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameState.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameState.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinPlayerController.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinPlayerController.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinPlayerController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinPlayerController.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinGameCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinItem.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/CoinItem.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasic.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasic.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasicCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasicCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasicCharacter.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/NetworkBasicCharacter.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/Makefile.bin" afterDir="false" />
@@ -47,19 +43,16 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.gen.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.gen.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.gen.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/LiveCodingInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.exp" afterDir="false" />
@@ -70,46 +63,27 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/NetworkBasic.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/NetworkBasic.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkBasic.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkBasic.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2AB742244E1A83488CEEA293DED1CE1C/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-334286C3448FFFE7FF95D8A947E640E4/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-341BE9204F4DF3BBAB8F6CB49B02F113/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-47BBD1684A291143A7DF42B4B46176DD/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-50CC72A649E10DB020BC68BA1C7C38EB/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-56383C17477584308C2927A87F97A5B8/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-70F3F42B43E2439F9DB875A08B4349F9/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-737F57F44B7C13806010F6B748F0955F/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-885786F7432311F04C9B1CB6C93AA889/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8C77AFAD40CA77D6B89ABFA927433563/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8D05AEE145F5EBE19033DFB178F773A6/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-93E8C8274C2A9C0CE13F96940842C8BA/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-B05AEDC842363564D86C7998621F3929/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C2530E2A43E5725153D7B289D84553A8/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D733E82D4F4E02AD9F3B328102561D50/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F52C38C2413A9604AD0983834EC7DE5C/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.05-07.50.09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.05-07.53.12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.05-08.41.23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-01.20.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-01.22.22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-01.24.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-01.32.44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-01.56.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-02.17.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-05.44.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.06-08.50.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.09-04.54.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.09-05.21.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.09-06.10.56.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.09-06.19.54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.09-06.33.39.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/NetworkBasic.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinGameState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/CoinFramework/CoinPlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/Character/NetworkBasicCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/Character/NetworkBasicCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/Character/NetworkBasicCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/Character/NetworkBasicCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/ETC/CoinItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/ETC/CoinItem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/NetworkFramework/NetworkBasicGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/NetworkFramework/NetworkBasicGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/NetworkFramework/NetworkBasicGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/NetworkFramework/NetworkBasicGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/ETC/CoinItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/ETC/CoinItem.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,19 +119,7 @@
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://6" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameMode.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameState.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameState.h" root0="SKIP_HIGHLIGHTING" />
@@ -180,22 +142,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ 프로젝트.NetworkBasic.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ 프로젝트.NetworkBasic.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C/C++ 프로젝트.NetworkBasic">
     <configuration name="NetworkBasic" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -305,7 +267,8 @@
       <updated>1733374175264</updated>
       <workItem from="1733374176623" duration="13041000" />
       <workItem from="1733444480812" duration="15312000" />
-      <workItem from="1733719221759" duration="11462000" />
+      <workItem from="1733719221759" duration="11840000" />
+      <workItem from="1733789831804" duration="19227000" />
     </task>
     <servers />
   </component>

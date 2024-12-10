@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NetworkBasic-4189.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h.obj"
+"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\Module.NetworkBasic.cpp.obj"
+"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\NetworkBasicCharacter.cpp.obj"
+"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\ItemBuffComponent.cpp.obj"
+"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\NetworkBasic.init.gen.cpp.obj"
+"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\NetworkBasicCharacter.gen.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"D:\NetworkBasic(1)\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkBasic\UnrealEditor-NetworkBasic-4189.lib"

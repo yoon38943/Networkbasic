@@ -15,12 +15,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define NETWORKBASIC_NetworkBasicCharacter_generated_h
 
 #define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClientAllMsgTest_Implementation(int32 Value); \
+	virtual void ClientMsgTest_Implementation(int32 Value); \
+	virtual bool ServerMsgTest_Validate(int32 ); \
+	virtual void ServerMsgTest_Implementation(int32 Value); \
+	DECLARE_FUNCTION(execClientAllMsgTest); \
+	DECLARE_FUNCTION(execClientMsgTest); \
+	DECLARE_FUNCTION(execServerMsgTest); \
 	DECLARE_FUNCTION(execOnRep_Mana); \
 	DECLARE_FUNCTION(execCallClientTravel); \
 	DECLARE_FUNCTION(execCallOpenLevel); \
 	DECLARE_FUNCTION(execOpenLevel);
 
 
+#define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_CALLBACK_WRAPPERS
 #define FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANetworkBasicCharacter(); \
@@ -55,6 +63,7 @@ public: \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_CALLBACK_WRAPPERS \
 	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_INCLASS_NO_PURE_DECLS \
 	FID_NetworkBasic_1__Source_NetworkBasic_Character_NetworkBasicCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \

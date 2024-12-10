@@ -14,6 +14,7 @@ ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 NETWORKBASIC_API UClass* Z_Construct_UClass_ACoinGameCharacter();
 NETWORKBASIC_API UClass* Z_Construct_UClass_ACoinGameCharacter_NoRegister();
 NETWORKBASIC_API UClass* Z_Construct_UClass_AHCharBase();
+NETWORKBASIC_API UClass* Z_Construct_UClass_UItemBuffComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_NetworkBasic();
 // End Cross Module References
 
@@ -95,6 +96,11 @@ struct Z_Construct_UClass_ACoinGameCharacter_Statics
 		{ "IncludePath", "Character/CoinGameCharacter.h" },
 		{ "ModuleRelativePath", "Character/CoinGameCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ItemBuff_MetaData[] = {
+		{ "Category", "CoinGameCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Character/CoinGameCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FallSound_MetaData[] = {
 		{ "Category", "Pickups Character" },
 		{ "ModuleRelativePath", "Character/CoinGameCharacter.h" },
@@ -104,6 +110,7 @@ struct Z_Construct_UClass_ACoinGameCharacter_Statics
 		{ "ModuleRelativePath", "Character/CoinGameCharacter.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemBuff;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FallSound;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LandSound;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -117,9 +124,11 @@ struct Z_Construct_UClass_ACoinGameCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_ItemBuff = { "ItemBuff", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinGameCharacter, ItemBuff), Z_Construct_UClass_UItemBuffComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemBuff_MetaData), NewProp_ItemBuff_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_FallSound = { "FallSound", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinGameCharacter, FallSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FallSound_MetaData), NewProp_FallSound_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_LandSound = { "LandSound", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinGameCharacter, LandSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LandSound_MetaData), NewProp_LandSound_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACoinGameCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_ItemBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_FallSound,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinGameCharacter_Statics::NewProp_LandSound,
 };
@@ -164,10 +173,10 @@ ACoinGameCharacter::~ACoinGameCharacter() {}
 struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACoinGameCharacter, ACoinGameCharacter::StaticClass, TEXT("ACoinGameCharacter"), &Z_Registration_Info_UClass_ACoinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinGameCharacter), 2180379458U) },
+		{ Z_Construct_UClass_ACoinGameCharacter, ACoinGameCharacter::StaticClass, TEXT("ACoinGameCharacter"), &Z_Registration_Info_UClass_ACoinGameCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinGameCharacter), 1280567116U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_3483020559(TEXT("/Script/NetworkBasic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_1994684410(TEXT("/Script/NetworkBasic"),
 	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_Character_CoinGameCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -18,6 +18,15 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pickup")
 	class USoundBase* PickupSound;
+
+// 아이템 속성
+private:
+	UPROPERTY(EditAnywhere)
+	bool ItemTypeSpeed = false;
+	UPROPERTY(EditAnywhere)
+	float BaseSpeedBuff = 1000.f;
+	UPROPERTY(EditAnywhere)
+	float SpeedBuffTime = 20.f;
 	
 protected:
 	virtual void BeginPlay() override;

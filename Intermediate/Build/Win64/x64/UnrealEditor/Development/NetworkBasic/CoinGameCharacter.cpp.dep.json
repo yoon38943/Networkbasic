@@ -19,6 +19,7 @@
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\hcharbase.generated.h",
             "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\coingamecharacter.generated.h",
+            "d:\\unrealengine-5.5.0-release\\engine\\source\\editor\\propertyeditor\\public\\idetailtreenode.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
@@ -64,7 +65,9 @@
             "d:\\unrealengine-5.5.0-release\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
             "d:\\unrealengine-5.5.0-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
-            "d:\\networkbasic(1)\\source\\networkbasic\\etc\\hdebugmacros.h"
+            "d:\\networkbasic(1)\\source\\networkbasic\\etc\\hdebugmacros.h",
+            "d:\\networkbasic(1)\\source\\networkbasic\\component\\itembuffcomponent.h",
+            "d:\\networkbasic(1)\\intermediate\\build\\win64\\unrealeditor\\inc\\networkbasic\\uht\\itembuffcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

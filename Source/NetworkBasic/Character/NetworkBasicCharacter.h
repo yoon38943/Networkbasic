@@ -17,6 +17,9 @@ class ANetworkBasicCharacter : public AHCharBase
 {
 	GENERATED_BODY()
 
+private:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"));
+	UInputAction* CommandAction;
 	
 public:
 	ANetworkBasicCharacter();
@@ -25,6 +28,7 @@ public:
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void RPCCommand(const FInputActionValue& Value);
 	
 	// To add mapping context
 	virtual void BeginPlay();
@@ -37,7 +41,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CallClientTravel(const FString& Address);
 	
-	protected:
+protected:
 	UPROPERTY(Replicated)
 	float R_Health = 100.f;
 
@@ -46,5 +50,14 @@ public:
 
 	UFUNCTION()
 	void OnRep_Mana();
+
+// RPC Command
+public:
+	UFUNCTION(Server, WithValidation, Reliable)
+	void ServerMsgTest(int32 Value);
+	UFUNCTION(Client, Reliable)
+	void ClientMsgTest(int32 Value);
+	UFUNCTION(NetMulticast, Reliable)
+	void ClientAllMsgTest(int32 Value);
 };
 

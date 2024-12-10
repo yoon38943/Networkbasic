@@ -139,10 +139,26 @@ struct Z_Construct_UClass_ACoinItem_Statics
 		{ "Category", "Pickup" },
 		{ "ModuleRelativePath", "ETC/CoinItem.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ItemTypeSpeed_MetaData[] = {
+		{ "Category", "CoinItem" },
+		{ "ModuleRelativePath", "ETC/CoinItem.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseSpeedBuff_MetaData[] = {
+		{ "Category", "CoinItem" },
+		{ "ModuleRelativePath", "ETC/CoinItem.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpeedBuffTime_MetaData[] = {
+		{ "Category", "CoinItem" },
+		{ "ModuleRelativePath", "ETC/CoinItem.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_RotatingMovement;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PickupSound;
+	static void NewProp_ItemTypeSpeed_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ItemTypeSpeed;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseSpeedBuff;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_SpeedBuffTime;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -157,10 +173,20 @@ struct Z_Construct_UClass_ACoinItem_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinItem, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticMesh_MetaData), NewProp_StaticMesh_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_RotatingMovement = { "RotatingMovement", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinItem, RotatingMovement), Z_Construct_UClass_URotatingMovementComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RotatingMovement_MetaData), NewProp_RotatingMovement_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_PickupSound = { "PickupSound", nullptr, (EPropertyFlags)0x0020080000020015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinItem, PickupSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PickupSound_MetaData), NewProp_PickupSound_MetaData) };
+void Z_Construct_UClass_ACoinItem_Statics::NewProp_ItemTypeSpeed_SetBit(void* Obj)
+{
+	((ACoinItem*)Obj)->ItemTypeSpeed = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_ItemTypeSpeed = { "ItemTypeSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ACoinItem), &Z_Construct_UClass_ACoinItem_Statics::NewProp_ItemTypeSpeed_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemTypeSpeed_MetaData), NewProp_ItemTypeSpeed_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_BaseSpeedBuff = { "BaseSpeedBuff", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinItem, BaseSpeedBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseSpeedBuff_MetaData), NewProp_BaseSpeedBuff_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACoinItem_Statics::NewProp_SpeedBuffTime = { "SpeedBuffTime", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACoinItem, SpeedBuffTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpeedBuffTime_MetaData), NewProp_SpeedBuffTime_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACoinItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_StaticMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_RotatingMovement,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_PickupSound,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_ItemTypeSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_BaseSpeedBuff,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACoinItem_Statics::NewProp_SpeedBuffTime,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ACoinItem_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ACoinItem_Statics::DependentSingletons[])() = {
@@ -203,10 +229,10 @@ ACoinItem::~ACoinItem() {}
 struct Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_CoinItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACoinItem, ACoinItem::StaticClass, TEXT("ACoinItem"), &Z_Registration_Info_UClass_ACoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinItem), 2086419235U) },
+		{ Z_Construct_UClass_ACoinItem, ACoinItem::StaticClass, TEXT("ACoinItem"), &Z_Registration_Info_UClass_ACoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinItem), 3148596684U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_CoinItem_h_958608216(TEXT("/Script/NetworkBasic"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_CoinItem_h_3809080773(TEXT("/Script/NetworkBasic"),
 	Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_CoinItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NetworkBasic_1__Source_NetworkBasic_ETC_CoinItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

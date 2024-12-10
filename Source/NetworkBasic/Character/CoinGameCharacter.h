@@ -13,6 +13,14 @@ class NETWORKBASIC_API ACoinGameCharacter : public AHCharBase
 
 public:
 	ACoinGameCharacter();
+	virtual void PostInitializeComponents() override;
+
+private:
+	UPROPERTY(VisibleAnywhere)
+	class UItemBuffComponent* ItemBuff;
+
+public:
+	UItemBuffComponent* GetItemBuff() const { return ItemBuff; }
 
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Pickups Character")

@@ -3,6 +3,7 @@
 #include "../CoinFramework/CoinGameState.h"
 #include "../CoinFramework/CoinGameMode.h"
 #include "GameFramework/RotatingMovementComponent.h"
+#include "NetworkBasic/Component/ItemBuffComponent.h"
 
 ACoinItem::ACoinItem()
 {
@@ -54,5 +55,15 @@ void ACoinItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* Othe
 	Character->AddScore(GameMode->PickupPoint);
 	Character->AddPickup();
 
+
+	if (ItemTypeSpeed == true)
+	{
+		UItemBuffComponent* ItemBuff = Character->GetItemBuff();
+		if (ItemBuff)
+		{
+			ItemBuff->SpeedBuffProc(BaseSpeedBuff, SpeedBuffTime);
+		}
+	}
+	
 	Destroy();
 }

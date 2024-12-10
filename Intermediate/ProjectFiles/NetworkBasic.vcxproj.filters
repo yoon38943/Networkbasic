@@ -105,6 +105,15 @@
     <ClCompile Include="..\..\Source\NetworkBasic\CoinFramework\UI\WidgetScoreInfo.h">
       <Filter>Source\NetworkBasic\CoinFramework\UI</Filter>
     </ClCompile>
+    <Filter Include="Source\NetworkBasic\Component">
+      <UniqueIdentifier>{01ECA991-AD64-3A0F-B2ED-7F80BE409F08}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetworkBasic\Component\ItemBuffComponent.cpp">
+      <Filter>Source\NetworkBasic\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NetworkBasic\Component\ItemBuffComponent.h">
+      <Filter>Source\NetworkBasic\Component</Filter>
+    </ClCompile>
     <Filter Include="Source\NetworkBasic\ETC">
       <UniqueIdentifier>{FC9CA504-6E2F-3683-A3D7-CE6D22F4B92E}</UniqueIdentifier>
     </Filter>
