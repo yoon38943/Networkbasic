@@ -12,190 +12,376 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd020ac-ba80-40e6-ada0-c0201b80560b" name="변경" comment="">
+    <list default="true" id="ab681514-3f98-43e1-9409-2ea528cf880b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NetworkBasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NetworkBasic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NetworkBasic/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NetworkBasic/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic-4270.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic-6319.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0_PID_18064.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_0_PID_24300.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1_PID_18064.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.patch_1_PID_24300.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-NetworkBasic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/CoinGame/L_CoinMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CoinGame/L_CoinMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/NetworkBasicModuleRulesManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/NetworkBasicModuleRules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/NetworkBasicModuleRules.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/Development/NetworkBasicModuleRules.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/NetworkBasicModuleRules.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/NetworkBasicModuleRules.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UnrealEditor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/AutoRTFMEngineTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/AutoRTFMTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BaseTextureBuildWorker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BenchmarkTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BlankProgram.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BootstrapPackagedGame.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BreakpadSymbolEncoder.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/BuildPatchTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ChaosUserDataPTTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ChaosVisualDebugger.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/CmdLink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/CrashReportClient.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/CrashReportClientEditor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithArchiCAD.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithCADWorker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithFacadeCSharp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2019.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2020.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2021.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2022.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2023.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2024.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithMax2025.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2019.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2020.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2021.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2022.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2023.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2024.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithNavisworks2025.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2019.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2020.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2021.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2022.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRevit2023.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRhino6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRhino7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithRhino8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSDK.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2019.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2020.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2021.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2022.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2023.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSketchUpRuby2024.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithSolidworks2021.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DatasmithUE4ArchiCAD.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DerivedDataTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DiffAssetBulkData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DotNetPerforceLib.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DumpSyms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EpicWebHelper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EventLoopUnitTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/FoundationTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/GeometryProcessing.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/HeadlessChaos.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/HeadlessChaosPerf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/HordeTest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/IasTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/InterchangeWorker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/LiveCodingConsole.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/MathCoreTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/NetworkPredictionTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/PlainPropsTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ReplicationSystemLowLevelTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ReplicationSystemTest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ShaderCompileWorker.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SlateUGS.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SlateViewer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/NetworkBasicModuleRules/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/NetworkBasicEditor/Development/NetworkBasicEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/NetworkBasicEditor/Development/NetworkBasicEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ShaderCompileWorker/Development/ShaderCompileWorker.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ShaderCompileWorker/Development/ShaderCompileWorker.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/NetworkBasic/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/DependencyCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/NetworkBasicEditor/Development/Metadata-HotReload.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameCharacter.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameMode.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinGameState.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinItem.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerController.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/CoinPlayerState.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/HCharBase.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/ItemBuffComponent.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/LiveCodingInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/LiveCodingInfo.json.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/Module.NetworkBasic.cpp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.dep.lc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.lc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasic.init.gen.cpp.obj.rsp.lc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.dep.lc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.lc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.obj.rsp.lc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.dep.lc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.lc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicCharacter.gen.cpp.obj.rsp.lc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicController.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.dep.lc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.lc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.obj.rsp.lc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameMode.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/NetworkBasicGameState.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.dep.lc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.lc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.obj.rsp.lc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/OwnershipTestActor.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/PerModuleInline.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/PerModuleInline.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-1109.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-1109.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-2710.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-2710.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-4189.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-4189.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-4270.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-4270.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-4270.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-6319.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-6319.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-6319.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-6709.dll.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic-6709.lib.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.dll.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.lib.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/UnrealEditor-NetworkBasic.lib.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreBoard.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.cpp.dep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.cpp.obj.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.cpp.sarif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.gen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/NetworkBasic/WidgetScoreInfo.gen.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/NetworkBasic.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/StateGraphTests.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/StateGraphTests.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SubmitTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SwitchboardListener.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SwitchboardListenerCmd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SwitchboardListenerHelper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SwitchboardListenerTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/SymsLibDump.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/TestPAL.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/TextureShareSDK.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ToolMenusTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/TraceAnalyzer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaAgent.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaCacheService.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaCli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaCommon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaCoordinatorHorde.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaCore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaDetours.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaHost.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaObjTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaStorageProxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaTest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaTestApp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaVisualizer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UninstallHelper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealFrontend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealInsights.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealLightmass.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserServer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserSlateServer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealObjectPtrTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealPackageTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealPak.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealRecoverySvc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealVersionSelector.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealVirtualizationTool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/Unsync.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/WebTests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ZenDashboard.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/ZenLaunch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.NetworkBasic.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.NetworkBasic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkBasic.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkBasic.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/BP_CoinGameMode_Auto1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/BP_CoinPlayerController_Auto3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/L_CoinMap_Auto1.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Auto1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Auto2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Auto3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Entry_Auto1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Entry_Auto2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_ScoreBoard_Entry_Auto3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/CoinGame/WBP_WidgetScoreInfo_Auto1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_CoinGameCharacter_Auto1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0112E2034601C95E287174AAFF8ADE18/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-03C986304750203F8458C8AB362A23EE/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0789343E4321581193FBD5B54137CB55/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-08D715114CF1D178B04F298C3E4C0BD1/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-2967ABFA48D618856B9C7B89C5DF8372/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3AA37FDA419E5F4608F9F5B9FB814B5D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-423535574B732B050D2B679056F8C5FA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4BFBB70B4D77EC92CEDEA488F7AA1E97/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4E1D701D49B85B23E7D72CA0FBEDA9B4/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-545A455D4A2F21DE9C08E1AFC5F89E74/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-56B566814A28644099913ABAC938F8C8/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5D8F710F4442C852E53143AF5E6B5FDD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-63DC43E3496424CE45844183FCF296CA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-645A28BC4A49CF31A339B59092D6DCC7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-668BA17146E7C410ED755C8CF9A0CAE2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-7446C138417EB5CB658F3E9075A90FFF/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-752FC2DA410508E94C8710845ACFD288/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-791748C74B9152E8A4805E8CB9AFBCA2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-7F1284C7469BDC1C0ABDA4B9B0495DCC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-83A9450F4B946FA7B39CF1B0A3024957/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8BF1831F4929353810AD3384F2403DAA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8E81C0754D6F5662051FAF8AD5DA679C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8FB84FAE4847D79618E23C846C46E9F4/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-94AF1DE342A26CC1C174A08C65A459B3/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-996DF8A24B0A402C2698A3AC95E640CE/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-9EBE0ECE4177D6A5E851FB8FA723478F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-B9817681402141250AF7AA818B885678/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BC972E644A0F1DB629724ABC64A783E7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C24473204A78E73B577BC9992CCDAA17/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C26A20124F0ED169FD9C199C2F4121B6/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-CA43256E45C7F98C99E51D80E6657C51/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D6DCE80141C9E763021E22984A6E72DB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D9BBCFA049A951527C2F2E953D6BBB62/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-DA5D6E7B4A13BD1AB81ED8B599EFC5F6/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-DDF332F64B6FB589961741AC16FB7CAC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E6459F3A420AAF339FB7F2B0B54EB6F0/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E7A0D1D2409CDA661AE68DBA7C52AF26/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-FD9B1ECC4E89CD2715240BB2F25E59E7/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/1733406562.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/1943600922.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2959576711.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-03C986304750203F8458C8AB362A23EE_0000/CrashContext.runtime-xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-03C986304750203F8458C8AB362A23EE_0000/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-03C986304750203F8458C8AB362A23EE_0000/NetworkBasic_3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-03C986304750203F8458C8AB362A23EE_0000/UEMinidump.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940_0000/Breadcrumbs_Parallel_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940_0000/CrashContext.runtime-xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940_0000/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940_0000/NetworkBasic_2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-06FD114B446B9DC7D48206A6F0DF2940_0000/UEMinidump.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-04.32.53.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-04.34.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-04.39.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-04.46.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-05.07.30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-05.26.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-05.30.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-05.32.49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-05.45.40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic-backup-2024.12.10-06.22.49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/NetworkBasic.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.11.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.12.37.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.13.22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.15.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.16.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.21.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.29.13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.29.37.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.32.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2-backup-2024.12.10-05.34.27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_3-backup-2024.12.10-04.32.14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_3-backup-2024.12.10-04.53.37.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/NetworkBasic_3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.04-17.15.59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.04-17.15.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.05-13.49.17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.05-13.49.17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.05-13.53.52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.12.05-13.53.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00000fd0-2024-12-10T14.29.28.819Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00001638-2024-12-10T14.31.09.419Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-0000322c-2024-12-10T14.34.16.859Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00003594-2024-12-10T13.53.07.998Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00003ae8-2024-12-10T13.53.06.934Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00003c54-2024-12-10T14.13.06.557Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00004690-2024-12-10T13.32.09.335Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00005cbc-2024-12-10T14.27.35.721Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00005eec-2024-12-10T13.32.10.068Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00006eb8-2024-12-10T14.11.46.393Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00006eb8-2024-12-10T14.11.55.772Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00007a84-2024-12-10T14.20.00.982Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-00007c38-2024-12-10T14.46.59.931Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-000087a4-2024-12-10T14.12.26.936Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-Game_ThirdPersonMap-000087a4-2024-12-10T14.12.33.303Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000010c-2024-12-10T14.46.51.530Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000244-2024-12-10T13.40.04.235Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000244-2024-12-10T13.40.27.788Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000244-2024-12-10T13.41.01.249Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000244-2024-12-10T13.41.15.500Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000244-2024-12-10T13.41.28.290Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000478-2024-12-10T11.47.23.804Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00000d4c-2024-12-10T14.34.05.073Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001508-2024-12-10T13.14.03.323Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001508-2024-12-10T13.14.58.301Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001508-2024-12-10T13.15.22.235Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001570-2024-12-10T14.31.00.105Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.18.26.302Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.25.13.964Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.26.30.703Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.27.02.614Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.31.44.144Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.31.49.135Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000294c-2024-12-10T13.32.40.385Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.08.10.179Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.11.13.510Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.11.35.762Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.12.02.131Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.12.17.061Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.16.02.594Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.16.18.127Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.19.51.592Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003380-2024-12-10T14.19.53.508Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c50-2024-12-05T09.23.30.950Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c50-2024-12-05T09.24.08.930Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c50-2024-12-05T09.24.20.929Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c60-2024-12-10T13.35.19.998Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c60-2024-12-10T13.35.25.725Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c60-2024-12-10T13.35.27.704Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004c64-2024-12-10T13.33.38.829Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000056c4-2024-12-10T11.53.28.977Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000061bc-2024-12-10T11.39.38.686Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000061bc-2024-12-10T11.41.17.000Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000061bc-2024-12-10T11.45.17.480Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000068f0-2024-12-10T11.50.52.263Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000068f0-2024-12-10T11.51.04.148Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.47.22.063Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.50.36.445Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.51.05.771Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.52.06.052Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.52.19.471Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.52.27.394Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.53.39.855Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.53.55.638Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.54.10.310Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.54.13.112Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.54.20.502Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T13.54.46.360Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T14.06.20.499Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00007d08-2024-12-10T14.07.20.946Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000083b4-2024-12-10T14.27.23.378Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000083b4-2024-12-10T14.29.20.131Z.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/NetworkBasic/Character/CoinGameCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://6" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameMode.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameState.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinGameState.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinPlayerController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/CoinPlayerController.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/UI/WidgetScoreBoard.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/UI/WidgetScoreBoard.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/UI/WidgetScoreInfo.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/CoinFramework/UI/WidgetScoreInfo.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/ETC/CoinItem.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/NetworkFramework/NetworkBasicController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Professor_Network/NetworkBasic/Source/NetworkBasic/NetworkFramework/NetworkBasicController.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2pmbPS0i9M46EH9uqrTpwURsT8d" />
+  <component name="ProjectId" id="2qjZTojenvPM3TFDULhxDYdDfKh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ 프로젝트.NetworkBasic.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -204,7 +390,6 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -222,6 +407,18 @@
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" />
       </configuration_1>
+      <configuration_2 setup="1">
+        <option name="CONFIGURATION" value="Development_Server" />
+        <option name="PLATFORM" value="x64" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" />
+      </configuration_2>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/NetworkBasic.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="10010" />
@@ -310,17 +507,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="dcd020ac-ba80-40e6-ada0-c0201b80560b" name="변경" comment="" />
-      <created>1733374175264</created>
+      <changelist id="ab681514-3f98-43e1-9409-2ea528cf880b" name="변경" comment="" />
+      <created>1735177955245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1733374175264</updated>
-      <workItem from="1733374176623" duration="13041000" />
-      <workItem from="1733444480812" duration="15312000" />
-      <workItem from="1733719221759" duration="11840000" />
-      <workItem from="1733789831804" duration="19227000" />
-      <workItem from="1733891585073" duration="33000" />
-      <workItem from="1733899549310" duration="13000" />
+      <updated>1735177955245</updated>
+      <workItem from="1735177956797" duration="3217000" />
+      <workItem from="1735186815007" duration="1476000" />
+      <workItem from="1735257858130" duration="669000" />
     </task>
     <servers />
   </component>
@@ -330,9 +524,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
